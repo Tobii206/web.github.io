@@ -1,0 +1,134 @@
+*{margin: auto; padding: 0; box-sizing: border-box;}
+.wrapper{
+    width: 900px;
+    margin: auto;
+}
+.header-main{
+    height: 95px;
+    text-align: center;
+    background: #127072;
+}
+.nav-main{
+    display: flex;  
+    display: grid;  
+    place-items: center; 
+    height: 90px; 
+    background: rgb(73 71 71);;
+}
+.footer-main{
+    height: 440px;
+    background: #127072;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-items{
+    margin: 7px;
+    height: 370px;
+    width: 260px; 
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #127072 ;
+    border-radius: 3%;
+    font-weight: bold;
+}
+.product-items:hover{
+    color: gray;
+    box-shadow: 0 5px 10px gray;
+}
+.product-item a{
+    padding: 30px;
+    border: none;
+    text-decoration: none;
+    
+}
+.product-item:hover{
+    box-shadow: 0 0 5px gray;
+}
+.logo-main{
+    width: 180px;
+}
+.nav-main ul li {
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    padding: 0 30px;
+    
+}
+.nav-main ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav-main li a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.slider-main{
+    width: 80%;
+    margin: auto;
+}
+.slider-main2{
+    width: 80%;
+    text-align: center;
+}
+.cate-pro{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+.pro-img{
+    width: 200px;
+    width: 180px;
+    
+}
+.pro-name a{
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+}
+.pro-price{
+    margin: 10px 0;
+    color: red;
+    font-weight: bold;
+}
+.content{
+    margin: auto;
+    text-align: center;
+}
+.timkiem {
+    height: 30px;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+  }
+.tim {
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: #a4c8ea;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.product-item h2, .product-item h3 {  
+    color: black;
+}
+.view-all-btn {  
+    background-color: white;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}  
+
+.view-all-btn:hover {  
+    background-color: #f1f1f1;  
+}  

@@ -1,0 +1,181 @@
+*{margin: auto; padding: 0; box-sizing: border-box;}
+.wrapper{
+    width: 900px;
+    margin: auto;
+}
+.header-main{
+    height: 95px;
+    text-align: center;
+    background: #127072;
+}
+.nav-main{
+    display: flex;  
+    display: grid;  
+    place-items: center; 
+    height: 90px; 
+    background: rgb(73 71 71);
+}
+.logo-main{
+    width: 180px;
+}
+.nav-main ul li {
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    padding: 0 30px;   
+}
+.timkiem {
+    height: 30px;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+  }
+.tim {
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: #a4c8ea;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.nav-main ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav-main li a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.footer-main{
+  background: #127072;
+  display: flex;  
+  justify-content: center; 
+  align-items: center; 
+  height: 420px
+  }
+  .menu ul li a:hover {
+    text-decoration: underline;
+  }
+  .timkiem {
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+  }
+  .tim {
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(92, 92, 238);
+    border: none;
+    color: white;
+    font-size: 15px;
+  }
+  .bocuca {
+    height: 1000px;
+  
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-gap: 10px;
+  }
+  .a1 {
+    height: 1000px;
+  }
+  .a2 {
+    height: 1000px;
+  }
+  .bocucb {
+    height: 50px;
+    text-align: center;
+  
+    font-size: 40px;
+  }
+  .bocucb p {
+    margin: auto;
+    font-weight: bold;
+  }
+  .hoten {
+    height: 1000px;
+  }
+  .hoten p {
+    font-size: 25px;
+  }
+  .name {
+    width: 400px;
+    height: 30px;
+  }
+  .sinhnhat {
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .hoten select {
+    width: 400px;
+    height: 30px;
+  }
+  .hoten select option {
+    font-size: 30px;
+  }
+  .email {
+    width: 400px;
+    height: 30px;
+  }
+  .sdt {
+    width: 400px;
+    height: 30px;
+  }
+  #luachon1 {
+    text-align: left;
+  }
+  .gui {
+    margin-top: 10px;
+    margin-left: 210px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+  }
+  .noidung {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .hotline {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .contact-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .contact-box:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+  }
+  .icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
